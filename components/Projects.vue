@@ -15,14 +15,14 @@
             <p>Html, vue, nuxt ,tailwindcss... </p>
           </div>
         </a>
-        <a class="card relative rounded-3xl" href="https://resignea.com/" target="_blank">
+        <a class="card relative rounded-3xl" href="https://www.resignea.com/" target="_blank">
           <img src="../public/projects/resignea-landing.png" alt="" class="w-full h-[20rem] object-cover rounded-3xl">
           <div class="content hidden">
             <h3 class="font-bold text-lg">Resignea landingpage</h3>
             <p>Html, vue, nuxt ,tailwindcss... </p>
           </div>
         </a>
-        <a class="card relative rounded-3xl" href="https://www.bubaphotography.com/" target="_blank">
+        <a class="card relative rounded-3xl" href="https://bubaphotogrphy.netlify.app/" target="_blank">
           <img src="../public/projects/buba.png" alt="" class="w-full h-[20rem] object-cover rounded-3xl">
           <div class="content hidden">
             <h3 class="font-bold text-lg">Bubaphotography</h3>

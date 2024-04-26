@@ -17,8 +17,9 @@
     <div class="nav-links text-lg">
       <a @click="scrollToSection('about-me')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">About Me</a>
       <a @click="scrollToSection('projects')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">Projects</a>
-      <a @click="scrollToSection('contact')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">Contact</a>
-      <a @click="scrollToSection('github')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">GitHub</a>
+      <a @click="scrollToSection('experience')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">Experience</a>
+      <a @click="scrollToSection('education')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">Education</a>
+      <a @click="scrollToSection('contact')" class="inline-block px-4 py-3 no-underline text-white hover:underline cursor-pointer">Contact Me</a>
     </div>
   </div>
 </template>

@@ -4,7 +4,9 @@
     <Hero id="hero" />
     <AboutMe id="about-me" />
     <Projects id="projects"/>
-    <!-- <Contact id="contact" /> -->
+    <Experience id="experience"/>
+    <Education id="education" />
+    <Contact id="contact" />
   </div>
 </template>
 

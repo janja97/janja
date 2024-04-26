@@ -28,7 +28,7 @@
 export default {
   data() {
     return {
-      skills: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Bootstrap', 'Tailwind css', 'PHP' ,'Laravel', 'SQL', '.NET', 'C', 'C#' ,'C++','GIT', 'SQL'] // Dodaj vještine koje želiš prikazati
+      skills: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Bootstrap', 'Tailwind CSS', 'PHP', 'Laravel', 'SQL', '.NET', 'C', 'C#', 'C++', 'GIT', 'SQL', 'WordPress', 'Rest API', 'Responsive Design', 'SEO Optimization']
     };
   }
 };
