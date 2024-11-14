@@ -2945,24 +2945,24 @@ input, select, textarea {
 
 			.gallery a img {
 				display: block;
-				height: 25vw;
-				min-height: 18rem;
-				object-fit: cover;
+				height: auto;
+				/* min-height: 18rem; */
 				object-position: center;
 				width: 100%;
+        object-fit: contain;
 			}
 
 			.gallery a.landscape {
 				width: 100%;
 			}
 
-				.gallery a.landscape img {
+				/* .gallery a.landscape img {
 					height: 30vw;
 				}
 
 			.gallery a.portrait img {
 				height: 30vw;
-			}
+			} */
 
 		.gallery .modal {
 			display: -moz-flex;
@@ -3094,7 +3094,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1152px) {
 
-			.gallery a img {
+			/* .gallery a img {
 				height: 20rem;
 			}
 
@@ -3104,7 +3104,7 @@ input, select, textarea {
 
 			.gallery a.portrait img {
 				height: 25rem;
-			}
+			} */
 
 			.gallery .modal .inner img {
 				max-width: 100vw;
@@ -3124,7 +3124,7 @@ input, select, textarea {
 					width: calc(50% - 0.625rem);
 				}
 
-					.gallery a img {
+					/* .gallery a img {
 						height: 20rem;
 					}
 
@@ -3134,19 +3134,19 @@ input, select, textarea {
 
 					.gallery a.portrait img {
 						height: 30rem;
-					}
+					} */
 
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.gallery a img {
-				height: 12rem;
+				height: auto;
 				min-height: 0;
 			}
 
 			.gallery a.landscape img {
-				height: 12rem;
+				height: auto;
 			}
 
 			.gallery a.portrait img {
@@ -3907,4 +3907,9 @@ input, select, textarea {
     padding: 0px 10px;
     background-color: rgb(220 220 223 / 40%);
     border-radius: 10px;
+  }
+
+  .project-img {
+    width: 100px;
+    height: auto;
   }
